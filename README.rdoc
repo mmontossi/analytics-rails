@@ -1,0 +1,18 @@
+{<img src="https://codeclimate.com/github/mattways/analytics-rails.png" />}[https://codeclimate.com/github/mattways/analytics-rails] {<img src="https://travis-ci.org/mattways/analytics-rails.png?branch=master" alt="Build Status" />}[https://travis-ci.org/mattways/analytics-rails] {<img src="https://gemnasium.com/mattways/analytics-rails.png" alt="Dependency Status" />}[https://gemnasium.com/mattways/analytics-rails]
+
+= Analytics Rails
+
+Adds a simple helper to create the google analytics include tag.
+
+= Install
+
+Put this line in your Gemfile:
+  gem 'analytics-rails'
+  
+Then bundle:
+  $ bundle
+
+= Usage
+  
+In your layout add a line like this in your head:
+  = google_analytics_include_tag 'your-id'
