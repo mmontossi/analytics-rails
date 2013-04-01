@@ -12,7 +12,7 @@ module Analytics
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();"
-        end if id.present? and Rails.env.production?
+        end if id.present? and ::Rails.env.production?
       end
 
     end
