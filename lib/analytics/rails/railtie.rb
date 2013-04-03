@@ -2,8 +2,8 @@ module Analytics
   module Rails
     class Railtie < ::Rails::Railtie
 
-      ActiveSupport.on_load(:action_view) do
-        include Analytics::Rails::Helpers
+      initializer 'analytics.helpers' do
+        ActionView::Base.send :include, Analytics::Rails::Helpers
       end
 
     end
