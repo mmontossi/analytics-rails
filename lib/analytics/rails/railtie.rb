@@ -3,7 +3,7 @@ module Analytics
     class Railtie < ::Rails::Railtie
 
       initializer 'analytics.helpers' do
-        ActionView::Base.send :include, Analytics::Rails::Helpers
+        ::ActionView::Base.send :include, Analytics::Rails::ActionView::Base
       end
 
     end
