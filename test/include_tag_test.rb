@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class AnalyticsRailsTest < ActionDispatch::IntegrationTest
+class IncludeTagTest < ActionDispatch::IntegrationTest
 
   test "should show include tag" do
     get '/'
