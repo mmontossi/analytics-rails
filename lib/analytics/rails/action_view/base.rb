@@ -4,7 +4,7 @@ module Analytics
       module Base
 
         def google_analytics_include_tag(account)
-          if ::Rails.env.production?
+          if ['production','test'].include? ::Rails.env
             script = <<-SCRIPT
               var _gaq = _gaq || [];
               _gaq.push(['_setAccount', '#{account}']);
@@ -15,7 +15,7 @@ module Analytics
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
               })();
             SCRIPT
-            content_tag(:script, script.html_safe, :type => 'text/javascript')
+            content_tag(:script, script.html_safe, type: 'text/javascript')
           end
         end
 

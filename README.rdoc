@@ -15,6 +15,6 @@ Then bundle:
 = Usage
   
 In your layout add a line like this in your head:
-  = google_analytics_include_tag 'your-id'
+  <%= google_analytics_include_tag 'your-id' %>
 
 (Will only show the include tag in production env)
