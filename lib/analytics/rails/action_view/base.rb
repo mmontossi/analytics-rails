@@ -15,7 +15,7 @@ module Analytics
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
               })();
             SCRIPT
-            content_tag(:script, script.html_safe, type: 'text/javascript')
+            content_tag :script, script.html_safe, type: 'text/javascript'
           end
         end
 
