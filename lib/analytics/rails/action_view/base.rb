@@ -4,8 +4,8 @@ module Analytics
       module Base
 
         def google_analytics_include_tag(account)
-          if ['production','test'].include? ::Rails.env
-            script = <<-SCRIPT
+          if ::Rails.env.production?
+            script = <<-SCRIPT.strip_heredoc
               var _gaq = _gaq || [];
               _gaq.push(['_setAccount', '#{account}']);
               _gaq.push(['_trackPageview']);

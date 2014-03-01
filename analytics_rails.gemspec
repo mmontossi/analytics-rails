@@ -7,9 +7,9 @@ require 'analytics/rails/version'
 Gem::Specification.new do |s|
   s.name        = 'analytics-rails'
   s.version     = Analytics::Rails::VERSION
-  s.authors     = ['Mattways']
-  s.email       = ['contact@mattways.com']
-  s.homepage    = 'https://github.com/mattways/analytics-rails'
+  s.authors     = ['Museways']
+  s.email       = ['hello@museways.com']
+  s.homepage    = 'https://github.com/museways/analytics-rails'
   s.summary     = 'Google Analytics for Rails.'
   s.description = 'Adds a simple view helper to create the google analytics include tag.'
   s.license     = 'MIT'
