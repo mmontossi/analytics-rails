@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Museways']
   s.email       = ['hello@museways.com']
   s.homepage    = 'https://github.com/museways/analytics-rails'
-  s.summary     = 'Google Analytics for Rails.'
-  s.description = 'Adds a simple view helper to create the google analytics include tag.'
+  s.summary     = 'Google analytics for rails.'
+  s.description = 'Adds a simple view helper to create the google analytics include tag in rails.'
   s.license     = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']

@@ -5,7 +5,7 @@ module Analytics
 
         def google_analytics_include_tag(account)
           if ::Rails.env.production?
-            script = <<-SCRIPT.strip_heredoc
+            script = <<-SCRIPT
               var _gaq = _gaq || [];
               _gaq.push(['_setAccount', '#{account}']);
               _gaq.push(['_trackPageview']);
