@@ -12,13 +12,14 @@ gem 'analytics-rails'
 ```
 
 Then bundle:
-
-    $ bundle
+```
+$ bundle
+```
 
 ## Usage
 
 In your layout add a line like this in your head:
-```ruby
+```erb
 <%= google_analytics_include_tag 'your-id' %>
 ```
 
