@@ -2,7 +2,7 @@ require 'test_helper'
 
 class IncludeTagTest < ActionView::TestCase
 
-  test 'should return include tag with id' do
+  test 'tag id' do
     with_env 'production' do
       assert google_analytics_include_tag('id').include?("_gaq.push(['_setAccount', 'id']);")
     end
