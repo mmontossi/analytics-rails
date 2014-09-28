@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/analytics-rails.svg)](http://badge.fury.io/rb/analytics-rails) [![Code Climate](https://codeclimate.com/github/museways/analytics-rails/badges/gpa.svg)](https://codeclimate.com/github/museways/analytics-rails) [![Build Status](https://travis-ci.org/museways/analytics-rails.svg?branch=master)](https://travis-ci.org/museways/analytics-rails)
+[![Gem Version](https://badge.fury.io/rb/analytics-rails.svg)](http://badge.fury.io/rb/analytics-rails) [![Code Climate](https://codeclimate.com/github/museways/analytics-rails/badges/gpa.svg)](https://codeclimate.com/github/museways/analytics-rails) [![Build Status](https://travis-ci.org/museways/analytics-rails.svg?branch=master)](https://travis-ci.org/museways/analytics-rails) [![Dependency Status](https://gemnasium.com/museways/analytics-rails.svg)](https://gemnasium.com/museways/analytics-rails)
 
 # Analytics Rails
 
