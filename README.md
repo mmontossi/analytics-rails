@@ -1,4 +1,7 @@
-[![Gem Version](https://badge.fury.io/rb/analytics-rails.svg)](http://badge.fury.io/rb/analytics-rails) [![Code Climate](https://codeclimate.com/github/museways/analytics-rails/badges/gpa.svg)](https://codeclimate.com/github/museways/analytics-rails) [![Build Status](https://travis-ci.org/museways/analytics-rails.svg?branch=master)](https://travis-ci.org/museways/analytics-rails) [![Dependency Status](https://gemnasium.com/museways/analytics-rails.svg)](https://gemnasium.com/museways/analytics-rails)
+[![Gem Version](https://badge.fury.io/rb/analytics-rails.svg)](http://badge.fury.io/rb/analytics-rails)
+[![Code Climate](https://codeclimate.com/github/mmontossi/analytics-rails/badges/gpa.svg)](https://codeclimate.com/github/mmontossi/analytics-rails)
+[![Build Status](https://travis-ci.org/mmontossi/analytics-rails.svg)](https://travis-ci.org/mmontossi/analytics-rails)
+[![Dependency Status](https://gemnasium.com/mmontossi/analytics-rails.svg)](https://gemnasium.com/mmontossi/analytics-rails)
 
 # Analytics Rails
 
@@ -37,7 +40,7 @@ NOTE: Will only show the include tag in production environment.
 
 ## Credits
 
-This gem is maintained and funded by [museways](http://museways.com).
+This gem is maintained and funded by [mmontossi](https://github.com/mmontossi).
 
 ## License
 
