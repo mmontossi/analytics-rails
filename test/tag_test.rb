@@ -6,7 +6,7 @@ class TagTest < ActionView::TestCase
     with_env 'production' do
       tag = google_analytics_include_tag('id')
       assert_includes tag, 'ga("create", "id", "auto");'
-      assert_includes tag, 'ga("send", "pageview");'
+      assert_includes tag, 'ga("send", "pageview", {});'
 
       tag = google_analytics_include_tag('id', other: 'value')
       assert_includes tag, 'ga("create", "id", "auto");'
@@ -22,7 +22,7 @@ class TagTest < ActionView::TestCase
     with_env 'production' do
       assert_includes(
         google_analytics_event_tag('Popup', 'click'),
-        'ga("send", "event", "Popup", "click");'
+        'ga("send", "event", "Popup", "click", {});'
       )
       assert_includes(
         google_analytics_event_tag('Video', 'play', 'ad.mp4', 10, other: 'value'),
