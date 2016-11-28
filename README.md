@@ -37,12 +37,12 @@ You can add variables:
 <%= google_analytics_include_tag 'your-id', user: 1 %>
 ```
 
-And custom events after include tag:
+And custom events after the include tag:
 ```erb
 <%= google_analytics_event_tag 'popup', 'click' %>
 ```
 
-NOTE: Will only show the include tag in production environment.
+NOTE: Will only show the tags in production environment.
 
 ## Credits
 
