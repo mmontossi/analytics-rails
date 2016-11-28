@@ -25,8 +25,8 @@ class TagTest < ActionView::TestCase
         'ga("send", "event", "Popup", "click", {});'
       )
       assert_includes(
-        google_analytics_event_tag('Video', 'play', 'ad.mp4', 10, other: 'value'),
-        'ga("send", "event", "Video", "play", "ad.mp4", 10, {"other":"value"});'
+        google_analytics_event_tag('Video', 'play', 'ad.mp4', 10, non_interactive: 'value'),
+        'ga("send", "event", "Video", "play", "ad.mp4", 10, {"nonInteractive":"value"});'
       )
     end
 
