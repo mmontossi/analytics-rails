@@ -27,17 +27,33 @@ $ bundle
 
 ## Usage
 
+### Include
+
 In your layout add a line like this in your head:
+```erb
+<%= google_analytics_include_tag 'id' %>
+```
+
+You can add metrics if you want:
 ```erb
 <%= google_analytics_include_tag 'id', metric: 'value' %>
 ```
 
-After you included the main tag, you can add events:
+### Events
+
+To send events add a line like this with the category and action:
+```erb
+<%= google_analytics_event_tag 'Video', 'action' %>
+```
+
+You can add label, value and other options too if you want:
 ```erb
 <%= google_analytics_event_tag 'Video', 'play', 'Fall Campaign', 42, metric: 'value' %>
 ```
 
-NOTE: Tags will only show in production environment.
+### Environments
+
+The gem will only show the tags in production, in any other environment nothing will be show.
 
 ## Credits
 
