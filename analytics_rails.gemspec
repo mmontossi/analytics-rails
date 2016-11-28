@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ['mmontossi@gmail.com']
   s.homepage    = 'https://github.com/mmontossi/analytics-rails'
   s.summary     = 'Google analytics for rails.'
-  s.description = Adds a helper to create the google analytics script in rails.
+  s.description = 'Adds a helper to create the google analytics script in rails.'
   s.license     = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
