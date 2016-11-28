@@ -45,7 +45,7 @@ You can add metrics if you want:
 
 To send events add a line like this with the category and action:
 ```erb
-<%= google_analytics_event_tag 'Video', 'action' %>
+<%= google_analytics_event_tag 'Video', 'play' %>
 ```
 
 You can add label, value and other options too if you want:
