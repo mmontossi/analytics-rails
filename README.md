@@ -33,12 +33,12 @@ Include tag must be added before any other tag in order to work and only will be
 
 In your layout add a line like this in your head:
 ```erb
-<%= google_analytics_include_tag 'id' %>
+<%= google_analytics_include_tag 'UA-000000-01' %>
 ```
 
 You can add metrics if you want:
 ```erb
-<%= google_analytics_include_tag 'id', category: 'products' %>
+<%= google_analytics_include_tag 'UA-000000-01', category: 'products' %>
 ```
 
 ### Events
