@@ -34,12 +34,12 @@ In your layout add a line like this in your head:
 
 You can add custom events:
 ```erb
-<%= google_analytics_include_tag 'your-id', events: [['Popup', 'Click']] %>
+<%= google_analytics_include_tag 'your-id', events: [['popup', 'click']] %>
 ```
 
 And custom variables:
 ```erb
-<%= google_analytics_include_tag 'your-id', variables: [[1, 'Member', 'Yes', 1]] %>
+<%= google_analytics_include_tag 'your-id', variables: [['user', 1]] %>
 ```
 
 NOTE: Will only show the include tag in production environment.
