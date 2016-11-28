@@ -27,19 +27,19 @@ $ bundle
 
 ## Usage
 
-In your layout add a line like this in your head:
+In your layout add a line like this in your head or before close body:
 ```erb
 <%= google_analytics_include_tag 'your-id' %>
 ```
 
-You can add custom events:
+You can add variables:
 ```erb
-<%= google_analytics_include_tag 'your-id', events: [['popup', 'click']] %>
+<%= google_analytics_include_tag 'your-id', user: 1 %>
 ```
 
-And custom variables:
+And custom events after include tag:
 ```erb
-<%= google_analytics_include_tag 'your-id', variables: [['user', 1]] %>
+<%= google_analytics_event_tag 'popup', 'click' %>
 ```
 
 NOTE: Will only show the include tag in production environment.

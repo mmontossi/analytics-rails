@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    analytics-rails (0.2.2)
+    analytics-rails (0.3.0)
       rails (>= 4.2.0, < 4.3.0)
 
 GEM
