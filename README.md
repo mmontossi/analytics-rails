@@ -27,27 +27,13 @@ $ bundle
 
 ## Usage
 
-### Include
-
 In your layout add a line like this in your head:
-```erb
-<%= google_analytics_include_tag 'id' %>
-```
-
-You can attach metrics if you want:
 ```erb
 <%= google_analytics_include_tag 'id', metric: 'value' %>
 ```
 
-### Events
-
 After you included the main tag, you can add events:
 ```erb
-<%= google_analytics_event_tag 'Video', 'play' %>
-```
-
-Only category and action is required, but you can send label, value and metris if you want:
-```ruby
 <%= google_analytics_event_tag 'Video', 'play', 'Fall Campaign', 42, metric: 'value' %>
 ```
 
