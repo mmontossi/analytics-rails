@@ -29,12 +29,12 @@ $ bundle
 
 In your layout add a line like this in your head or before close body:
 ```erb
-<%= google_analytics_include_tag 'your-id', variable: 'value' %>
+<%= google_analytics_include_tag 'id', variable: 'value' %>
 ```
 
 And custom events after the include tag:
 ```erb
-<%= google_analytics_event_tag 'popup', 'click' %>
+<%= google_analytics_event_tag 'category', 'action', 'label', 'value', option: 'value' %>
 ```
 
 NOTE: Will only show the tags in production environment.
