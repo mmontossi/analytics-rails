@@ -27,6 +27,8 @@ $ bundle
 
 ## Usage
 
+Tags will be show only in production, the include tag must be added before any other tag.
+
 ### Include
 
 In your layout add a line like this in your head:
@@ -50,10 +52,6 @@ You can add label, value and other options too if you want:
 ```erb
 <%= google_analytics_event_tag 'Video', 'play', 'Fall Campaign', 42, metric: 'value' %>
 ```
-
-### Environments
-
-The gem will only show the tags in production, in any other environment nothing will be show.
 
 ## Credits
 
