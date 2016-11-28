@@ -34,7 +34,7 @@ In your layout add a line like this in your head or before close body (only id r
 
 And custom events after the include tag (only category and action required):
 ```erb
-<%= google_analytics_event_tag 'Video', 'play', 'Fall Campaign', 42, nonInteraction: true, metric: 'value' %>
+<%= google_analytics_event_tag 'Video', 'play', 'Fall Campaign', 42, metric: 'value' %>
 ```
 
 NOTE: Will only show the tags in production environment.
