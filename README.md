@@ -27,7 +27,7 @@ $ bundle
 
 ## Usage
 
-Tags will be show only in production, the include tag must be added before any other tag.
+NOTE: Tags will be show only in production and the include tag must be added before any other tag.
 
 ### Include
 
