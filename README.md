@@ -27,6 +27,8 @@ $ bundle
 
 ## Usage
 
+Include tag must be added before any other tag in order to work and only will be show in production.
+
 ### Include
 
 In your layout add a line like this in your head:
@@ -50,8 +52,6 @@ You can add label, value and other options too if you want:
 ```erb
 <%= google_analytics_event_tag 'Video', 'play', 'Fall Campaign', 42, metric: 'value' %>
 ```
-
-NOTE: Tags will be show only in production and the include tag must be added before any other tag.
 
 ## Credits
 
