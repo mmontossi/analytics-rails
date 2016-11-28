@@ -29,12 +29,7 @@ $ bundle
 
 In your layout add a line like this in your head or before close body:
 ```erb
-<%= google_analytics_include_tag 'your-id' %>
-```
-
-You can add variables:
-```erb
-<%= google_analytics_include_tag 'your-id', user: 1 %>
+<%= google_analytics_include_tag 'your-id', variable: 'value' %>
 ```
 
 And custom events after the include tag:
