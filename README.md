@@ -38,7 +38,7 @@ In your layout add a line like this in your head:
 
 You can add metrics if you want:
 ```erb
-<%= google_analytics_include_tag 'id', metric: 'value' %>
+<%= google_analytics_include_tag 'id', category: 'products' %>
 ```
 
 ### Events
@@ -50,7 +50,7 @@ To send events add a line like this with the category and action:
 
 You can add label, value and other options too if you want:
 ```erb
-<%= google_analytics_event_tag 'Video', 'play', 'Fall Campaign', 42, metric: 'value' %>
+<%= google_analytics_event_tag 'Video', 'play', 'demo.mp4', 42, category: 'product' %>
 ```
 
 ## Credits
