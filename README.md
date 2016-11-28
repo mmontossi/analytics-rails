@@ -5,7 +5,13 @@
 
 # Analytics Rails
 
-Adds a simple helper to create the google analytics include tag.
+Adds a helper to create the google analytics script in rails.
+
+## Why
+
+I did this gem to:
+
+- Have a simple but versatile way to include google analytics.
 
 ## Install
 
