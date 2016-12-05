@@ -1,9 +1,9 @@
 require 'test_helper'
 
-class TagTest < ActionView::TestCase
+class ViewTest < ActionView::TestCase
 
   test 'include' do
-    self.request = ActionController::TestRequest.new
+    self.request = ActionDispatch::TestRequest.new
     with_env 'production' do
       tag = google_analytics_include_tag('id')
       assert_includes tag, 'ga("create", "id", "auto");'

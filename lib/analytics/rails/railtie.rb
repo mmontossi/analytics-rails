@@ -2,7 +2,7 @@ module Analytics
   module Rails
     class Railtie < ::Rails::Railtie
 
-      initializer :analytics do
+      initializer 'analytics.extensions' do
         ::ActionView::Base.include(
           Analytics::Rails::Extensions::ActionView::Base
         )
