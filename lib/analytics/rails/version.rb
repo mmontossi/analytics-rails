@@ -1,7 +1,7 @@
 module Analytics
   module Rails
 
-    VERSION = '0.3.4'
+    VERSION = '4.0.0.0'
 
   end
 end
