@@ -53,6 +53,12 @@ You can add label, value and other options too if you want:
 <%= google_analytics_event_tag 'Video', 'play', 'demo.mp4', 42, category: 'product' %>
 ```
 
+## Contributing
+
+Any issue, pull request, comment of any kind is more than welcome!
+
+I will mainly ensure compatibility to PostgreSQL, AWS, Redis, Elasticsearch, FreeBSD and Memcached. 
+
 ## Credits
 
 This gem is maintained and funded by [mmontossi](https://github.com/mmontossi).
