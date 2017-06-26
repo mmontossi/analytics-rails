@@ -1,0 +1,10 @@
+default: &default
+  adapter: postgresql
+
+development:
+  <<: *default
+  database: analytics_development
+
+test:
+  <<: *default
+  database: analytics_test

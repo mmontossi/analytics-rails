@@ -1,9 +1,11 @@
 require 'test_helper'
 
-class ViewTest < ActionView::TestCase
+class HelperTest < ActionView::TestCase
+  include Analytics::Rails::Extensions::ActionView::Base
 
   test 'include' do
-    self.request = ActionDispatch::TestRequest.new
+    self.request = ActionDispatch::TestRequest.new({})
+
     with_env 'production' do
       tag = google_analytics_include_tag('id')
       assert_includes tag, 'ga("create", "id", "auto");'
